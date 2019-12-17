@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check for component render 1`] = `
+<body>
+  <div>
+    <div
+      class="display panel"
+    >
+      <div
+        class="led green-led"
+        data-testid="lockStatus"
+      >
+        Unlocked
+      </div>
+      <div
+        class="led green-led"
+        data-testid="openStatus"
+      >
+        Open
+      </div>
+    </div>
+    <div
+      class="controls panel"
+    >
+      <button
+        class="toggle-btn"
+        disabled=""
+      >
+        Lock Gate
+      </button>
+      <button
+        class="toggle-btn"
+      >
+        Close Gate
+      </button>
+    </div>
+  </div>
+</body>
+`;
